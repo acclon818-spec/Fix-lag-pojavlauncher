@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pojavbooster.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ParticleEngineMixin",
+    "AnimatedTextureMixin",
+    "EntityTickMixin",
+    "RenderSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

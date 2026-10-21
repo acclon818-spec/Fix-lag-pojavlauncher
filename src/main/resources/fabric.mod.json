@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pojavbooster",
+  "version": "${version}",
+  "name": "PojavBooster",
+  "description": "FPS Booster & Lag Fix for Minecraft 1.21.x on Android ARM64 (PojavLauncher / MJLauncher)",
+  "authors": [
+    "PojavBooster"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pojavbooster/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pojavbooster.PojavBooster"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  },
+  "mixins": [
+    "pojavbooster.mixins.json"
+  ],
+  "client": "*",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/pojavbooster"
+      }
+    }
+  }
+}
